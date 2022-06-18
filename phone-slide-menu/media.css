@@ -1,0 +1,97 @@
+@media screen and (max-device-width: 480px)
+{
+	.thanks
+	{
+		margin-top:5px;
+		margin-right: 15px;
+		width: 40px;
+		height: 40px;
+	}
+	.github
+	{
+		margin-top:5px;
+		margin-right: 15px;
+		width: 40px;
+		height: 40px;
+	}
+	.info
+	{
+		margin-top:5px;
+		margin-right: 15px;
+		width: 40px;
+		height: 40px;
+	}
+
+	.header
+	{
+		height: 100%;
+		position: absolute;
+		display: none;
+	}
+
+
+	.open
+{
+	display: block;
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.open img
+{
+	display: block;
+}
+.closer
+{
+	position: fixed;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin-top:-185px;
+	margin-left: 10px;
+	display: none;
+}
+.closer img
+{
+	display: block;
+}
+
+
+    .logo img
+    {
+    	width: 140px;
+    	height: 140px;
+    }
+    .logo
+    {
+    	margin-top: 60px;
+    	margin-left: auto;
+    	margin-right: auto;
+    	width: 140px;
+    	height: 140px;
+    }
+    .list
+    {
+    	width: 95%;
+    	margin-top:300px;
+    	text-align: center;
+    	margin-left: 0px;
+    }
+	.listel
+	{
+		font-size: 40px;
+		transition: 0.3s linear;
+		height: 100px;
+		width: 105%;
+		margin-left: -40px;
+		display: block;
+	}
+	.listel:hover
+	{
+		transition: 0.3s linear;
+	}
+
+}

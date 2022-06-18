@@ -1,0 +1,145 @@
+body
+{
+	margin: 0;
+    background-image: url(https://cdn.discordapp.com/attachments/724940553535488041/946746287385104414/6cfabb84-213f-4f2f-89a6-e704a946895a.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color:#464646;	
+}
+
+a
+{
+	text-decoration: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.blackblocker
+{
+	position: fixed;
+	min-width: 100%;
+	min-height: 100%;
+	background: black;
+	opacity: .6;
+}
+
+
+.header
+{
+
+	position: fixed;
+	width: 100%;
+	height: 100px;
+	background: rgb(0, 0, 0, 0.5);
+}
+
+.list
+{
+	width: 660px;
+	height: auto;
+	margin-left: 300px;
+	margin-top:-85px;
+	list-style-type: none;
+}
+.listel
+{
+	color: white;
+	font-family: Golos;
+    padding-top: 35px;
+	text-align: center;
+	margin-left: -5px;
+	display: inline-block;
+	width: 220px;
+	height: 65px;
+	background: none;
+	transition: 0.3s linear;
+}
+.github
+{
+ margin-right: 8px;
+ margin-bottom: -4px;
+ filter: brightness(100%);
+ transition: 0.3s linear;
+}
+#trigger3:hover .github
+{
+  transition: 0.3s linear;
+  filter: brightness(53%);
+}
+.info
+{
+ margin-right: 8px;
+ margin-bottom: -4px;
+ filter: brightness(100%);
+ transition: 0.3s linear;
+}
+#trigger1:hover .info
+{
+  transition: 0.3s linear;
+  filter: brightness(53%);
+}
+.thanks
+{
+  margin-right: 8px;
+  margin-bottom: -4px;
+  filter: brightness(100%);
+  transition: 0.3s linear;
+}
+#trigger2:hover .thanks
+{
+  transition: 0.3s linear;
+  filter: brightness(48%);
+}
+
+.listel:hover
+{
+	transition: 0.3s linear;
+	background: rgb(0, 0, 0, 0.3);
+	color: grey;
+}
+.logo
+{
+	margin-top: 14px;
+	margin-left:14px;
+	border-radius: 50%;
+	width: 70px;
+	height: 70px;
+}
+.open
+{
+	display: none;
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.open img
+{
+	display: none;
+}
+.closer
+{
+	position: fixed;
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin-top:-185px;
+	margin-left: 10px;
+	display: none;
+}
+.closer img
+{
+	display: none;
+}
